@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Button-1", "01-Button-1\01-Button-1.csproj", "{29F7721B-370D-41DF-995D-B6E33D15D767}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Button", "02-Button\01-Button.csproj", "{D70DA84E-45D8-48CA-86B0-3E032E468CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Login", "03-Login\02-Login.csproj", "{162795D8-02D2-44BA-9775-0EC794A92DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{29F7721B-370D-41DF-995D-B6E33D15D767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29F7721B-370D-41DF-995D-B6E33D15D767}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29F7721B-370D-41DF-995D-B6E33D15D767}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29F7721B-370D-41DF-995D-B6E33D15D767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70DA84E-45D8-48CA-86B0-3E032E468CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70DA84E-45D8-48CA-86B0-3E032E468CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70DA84E-45D8-48CA-86B0-3E032E468CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70DA84E-45D8-48CA-86B0-3E032E468CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162795D8-02D2-44BA-9775-0EC794A92DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162795D8-02D2-44BA-9775-0EC794A92DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162795D8-02D2-44BA-9775-0EC794A92DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162795D8-02D2-44BA-9775-0EC794A92DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

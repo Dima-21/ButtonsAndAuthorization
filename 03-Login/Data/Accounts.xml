@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<accounts>
+  <account login="Ivanov" password="4dfe6e220d16e7b633cfdd92bcc8050b"/>
+  <account login="Petrov" password="f396c3b74762b1fee69b10abb875139b"/>
+  <account login="Sidorov" password="9cd3acb851a21717cc51c213015eb7a7"/>
+</accounts>

@@ -6,14 +6,33 @@
         xmlns:local="clr-namespace:_01_Button_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="baseStyle">
+            <Setter Property="Control.FontFamily" Value="Comic Sans MS"/>
+            <Setter Property="Control.FontSize" Value="18"/>
+            <Setter Property="Control.Margin" Value="5"/>
+        </Style>
+        <Style TargetType="Button" BasedOn="{StaticResource baseStyle}">
+            <Setter Property="Width" Value="200"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+        <LinearGradientBrush x:Key="brush1">
+            <GradientStop />
+        </LinearGradientBrush>
+    </Window.Resources>
     <Grid>
         <TabControl>
             <TabItem Header="Button-1">
                 <StackPanel VerticalAlignment="Center">
-                    <Button Content="Button1"/>
-                    <Button Content="Button2"/>
+                    <Button Content="Button1" Background="{StaticResource brush1}"/>
+                    <Button>
+                        <Grid>
+                            <Image Source="Images/logo.png"/>
+                        </Grid>
+                    </Button>
                 </StackPanel>
             </TabItem>
+            
             <TabItem Header="Button-2"></TabItem>
             <TabItem Header="Button-3"></TabItem>
             <TabItem Header="Button-4"></TabItem>
